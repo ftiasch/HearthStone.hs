@@ -8,7 +8,7 @@ data CardType = MinionCard
               | WeaponCard
               deriving (Eq, Show)
 
-data Minion = Minion { minionType      :: MinionType
+data Minion = Minion { minionType :: MinionType
                      } deriving (Eq, Show)
 data MinionType = TargetDummy
                 deriving (Eq, Show)
